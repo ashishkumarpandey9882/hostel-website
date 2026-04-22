@@ -1,0 +1,111 @@
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background: url("https://img.collegepravesh.com/2014/04/NIT-Kurukshetra.jpg")
+no-repeat center center fixed;
+background-size: cover;
+}
+
+.header {
+display: flex;
+align-items: center;
+gap: 20px;
+background: rgba(179, 0, 0, 0.85);
+color: white;
+padding: 20px 40px;
+}
+
+.logo {
+width: 90px;
+}
+
+.container {
+width: 80%;
+max-width: 1000px;
+margin: 30px auto;
+background: white;
+border-left: 6px solid #b30000;
+padding: 25px;
+border-radius: 6px;
+box-shadow: 0px 4px 12px rgba(0,0,0,0.15);
+}
+
+.section-title {
+color: #b30000;
+margin-bottom: 10px;
+border-bottom: 2px solid #b30000;
+padding-bottom: 5px;
+}
+
+table {
+width: 100%;
+border-collapse: collapse;
+margin-top: 15px;
+}
+
+table th {
+background: #b30000;
+color: white;
+padding: 12px;
+}
+
+table td {
+border: 1px solid #ddd;
+padding: 12px;
+text-align: center;
+}
+
+.links {
+text-align: center;
+}
+
+.links a {
+display: inline-block;
+margin: 10px;
+padding: 10px 25px;
+background: #b30000;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s ease;
+}
+
+.links a:hover {
+background: #800000;
+}
+
+footer {
+background: #b30000;
+color: white;
+text-align: center;
+padding: 15px;
+margin-top: 40px;
+}
+
+/* Forms */
+.form-container, .complaint-box, .login {
+background: white;
+padding: 30px;
+border-top: 6px solid #b30000;
+border-radius: 8px;
+box-shadow: 0px 5px 15px rgba(0,0,0,0.15);
+}
+
+.grid {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 18px;
+}
+
+button {
+background: #b30000;
+color: white;
+border: none;
+padding: 12px 25px;
+cursor: pointer;
+border-radius: 5px;
+}
+
+button:hover {
+background: #800000;
+}
