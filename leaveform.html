@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Leave Form</title>
+<link rel="stylesheet" href="hostel.css">
+</head>
+
+<body>
+<div class="form-container">
+<h2>Hostel Leave Application Form</h2>
+
+<form>
+<div class="grid">
+<input type="text" placeholder="First Name" required>
+<input type="text" placeholder="Last Name" required>
+<input type="text" placeholder="Roll Number" required>
+<input type="text" placeholder="Room Number">
+
+<input type="tel" placeholder="Mobile Number" pattern="[0-9]{10}" required>
+<input type="email" placeholder="Email Address" required>
+
+<label>Start Date</label>
+<input type="date">
+
+<label>End Date</label>
+<input type="date">
+</div>
+
+<h3>Reason for Leave</h3>
+<label><input type="radio" name="reason"> Personal</label>
+<label><input type="radio" name="reason"> Medical</label>
+<label><input type="radio" name="reason"> Other</label>
+
+<textarea placeholder="If other, specify reason"></textarea>
+
+<h3>Location During Leave</h3>
+<label><input type="checkbox"> Home</label>
+<label><input type="checkbox"> Relative's House</label>
+<label><input type="checkbox"> Other</label>
+
+<textarea placeholder="Enter location details"></textarea>
+
+<button type="submit">Submit Application</button>
+</form>
+</div>
+</body>
+</html>
